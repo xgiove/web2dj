@@ -104,7 +104,7 @@ h6 {
 p {
 	font-size: 20px;
 	font-family: "Effra Trial";
-	color: #444444;
+	color: #ffffff;
 	font-weight: 400;
 	line-height: 26px;
 	margin: 0 0 15px 0;
@@ -152,14 +152,14 @@ ol {
 	font-size: 42px;
 	font-family: "IBM Plex Sans";
 	letter-spacing: -0.5px;
-	color: #111111;
+	color: #ffffff;
 	font-weight: 700;
 	text-transform: uppercase;
 }
 
 .section-title h1 {
 	font-size: 100px;
-	color: #f2f2f2;
+	color: #6b6b6b;
 	font-family: "Rockville Solid Regular";
 	position: absolute;
 	left: 0;
@@ -307,8 +307,8 @@ ol {
 
 .header.header--normal {
 	position: relative;
-	background: #373737
-		/*#290849;*/
+	background: rgb(0, 0, 0);
+	/* Cambiato da grigio a nero */
 }
 
 .header__logo {
@@ -611,7 +611,7 @@ ol {
 	font-size: 15px;
 	color: #ffffff;
 	display: inline-block;
-	background: #5c00ce;
+	background: #ce0000;
 	padding: 12px 8px 9px 20px;
 }
 
@@ -623,7 +623,7 @@ ol {
 .event__item__text h4 {
 	font-size: 26px;
 	font-weight: 700;
-	color: #111111;
+	color: #dbdbdb;
 	margin-bottom: 10px;
 }
 
@@ -633,7 +633,7 @@ ol {
 }
 
 .event__item__text p i {
-	color: #5c00ce;
+	color: #ce0000;
 	margin-right: 8px;
 	font-size: 17px;
 }
@@ -1090,7 +1090,7 @@ ol {
 
 .footer__address ul li i {
 	font-size: 18px;
-	color: #5c00ce;
+	color: #ce0000;
 	height: 50px;
 	width: 50px;
 	background: #ffffff;
@@ -1148,7 +1148,7 @@ ol {
 
 .footer__social .footer__social__links a {
 	font-size: 18px;
-	color: #5c00ce;
+	color: #ce0000;
 	height: 50px;
 	width: 50px;
 	background: #ffffff;
@@ -1234,7 +1234,7 @@ ol {
 }
 
 .footer__copyright__text a:hover {
-	color: #5c00ce;
+	color: #d30c0c;
 }
 
 .footer__copyright__text i {
@@ -1251,7 +1251,7 @@ ol {
 
 .breadcrumb__links a {
 	font-size: 15px;
-	color: #111111;
+	color: #ffffff;
 	margin-right: 18px;
 	display: inline-block;
 	position: relative;
@@ -1262,7 +1262,7 @@ ol {
 	right: -14px;
 	top: 0;
 	content: "|";
-	color: #888888;
+	color: #aaaaaa;
 }
 
 .breadcrumb__links a i {
