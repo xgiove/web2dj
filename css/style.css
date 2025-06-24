@@ -519,6 +519,16 @@ ol {
 	z-index: -1;
 }
 
+.hero-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	/* z-index: -1; */
+}
+
 .linear__icon {
 	position: absolute;
 	left: 50%;
@@ -1025,7 +1035,7 @@ ol {
 .discography__item__text h4 {
 	font-size: 22px;
 	text-transform: uppercase;
-	color: #111111;
+	color: #ffffff;
 	margin-top: 10px;
 	margin-bottom: 25px;
 }
@@ -1224,7 +1234,7 @@ ol {
 
 .footer__newslatter form button {
 	font-size: 18px;
-	color: #5c00ce;
+	color: #ce0000;
 	position: absolute;
 	right: 0;
 	top: 0;
