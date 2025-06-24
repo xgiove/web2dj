@@ -175,7 +175,7 @@ ol {
 }
 
 .spad {
-	padding-top: 100px;
+	padding-top: 80px;
 	/* padding-bottom: 100px; */
 }
 
@@ -658,12 +658,12 @@ ol {
 
 .track {
 	padding-top: 120px;
-	padding-bottom: 40px;
+	padding-bottom: 0px;
 	overflow: hidden;
 }
 
 .track .section-title {
-	margin-bottom: 105px;
+	margin-bottom: 0px;
 }
 
 .track__content {
@@ -673,7 +673,7 @@ ol {
 
 .track__all {
 	text-align: right;
-	margin-bottom: 100px;
+	margin-bottom: 0px;
 }
 
 .jp-play {
@@ -1079,7 +1079,7 @@ ol {
 .footer {
 	padding-top: 300px;
 	padding-bottom: 60px;
-	margin-top: -547px;
+	/* margin-top: -547px; */
 	height: 549px;
 }
 
@@ -2821,7 +2821,7 @@ ol {
 	}
 
 	.footer {
-		margin-top: -740px;
+		/* margin-top: -740px; */
 		background-position: top 0 left 19%;
 	}
 
@@ -2859,7 +2859,7 @@ ol {
 	}
 
 	.track__content {
-		margin-bottom: 120px;
+		margin-bottom: 0px;
 	}
 
 	.track .p-0 {
@@ -3022,7 +3022,7 @@ ol {
 	}
 
 	.footer {
-		margin-top: -940px;
+		/* margin-top: -940px; */
 		background-position: top 0 left 19%;
 	}
 
@@ -3130,7 +3130,7 @@ ol {
 	}
 
 	.footer {
-		margin-top: -970px;
+		/* margin-top: -970px; */
 		background-position: top 0 left 19%;
 	}
 

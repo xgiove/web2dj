@@ -232,3 +232,42 @@ function initializeCookieBanner() {
 // Assigning values to window object
 window.onload = initializeCookieBanner();
 window.cb_hideCookieBanner = hideCookieBanner;
+
+
+/* Selettore provider musicale */
+
+document.addEventListener('DOMContentLoaded', () => {
+    const select = document.getElementById('provider-select');
+    const container = document.getElementById('iframe-container');
+
+    // Codici iframe completi per ogni provider
+    const iframes = {
+        spotify: `
+            <iframe class="embed-provider" style="border-radius:12px"
+                src="https://open.spotify.com/embed/artist/0gwlxKTRcSoc9xNEXGwECx?utm_source=generator"
+                width="100%" height="380" frameborder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"></iframe>
+        `,
+        appleMusic: `
+            <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/it/artist/xgiove/1433649749"></iframe>
+        `,
+        youtube: `
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/ScMzIvxBSi4" title="YouTube video player"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen style="border-radius:12px"></iframe>
+        `
+    };
+
+    // Funzione per aggiornare l'iframe inizialmente (al caricamento pagina)
+    function updateIframe() {
+        const selected = select.value;
+        container.innerHTML = iframes[selected] || '';
+    }
+
+    // Aggiorna iframe al cambio selettore
+    select.addEventListener('change', updateIframe);
+
+    // Imposta iframe iniziale
+    updateIframe();
+});
