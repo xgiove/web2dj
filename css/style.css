@@ -401,6 +401,13 @@ ol {
 	display: block;
 	padding: 6px 0;
 	position: relative;
+	transition: color 0.15s ease;
+	/* transizione sul colore */
+}
+
+.header__menu ul li a:hover {
+	opacity: 0.7;
+	color: #bbbbbb;
 }
 
 .header__menu ul li a:after {
@@ -426,6 +433,13 @@ ol {
 	font-size: 16px;
 	color: #ffffff;
 	margin-right: 16px;
+	transition: opacity 0.15s ease;
+	/* aggiunta */
+}
+
+.header__right__social a:hover {
+	opacity: 0.6;
+	/* effetto trasparenza */
 }
 
 .header__right__social a:last-child {
@@ -2949,19 +2963,19 @@ ol {
 	.slicknav_btn {
 		position: absolute;
 		right: 15px;
-		top: 25px;
+		top: 14px;
 		margin: 0;
 		border-radius: 0;
 		padding: 12px 15px;
 		float: none;
-		background: #d45959;
+		background: #bb0000;
 		/* was #5c00ce*/
 	}
 
 	.slicknav_nav {
 		position: absolute;
 		left: 0;
-		top: 90px;
+		top: 68px;
 		background: #222;
 		width: 100%;
 	}
@@ -2985,13 +2999,13 @@ ol {
 
 	.slicknav_nav a:hover {
 		border-radius: 0;
-		background: #5c00ce;
+		background: #c03636;
 		color: #ffffff;
 	}
 
 	.slicknav_nav .slicknav_row:hover {
 		border-radius: 0;
-		background: #5c00ce;
+		background: #c03636;
 		color: #ffffff;
 	}
 
