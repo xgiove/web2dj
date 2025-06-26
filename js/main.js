@@ -271,3 +271,47 @@ document.addEventListener('DOMContentLoaded', () => {
     // Imposta iframe iniziale
     updateIframe();
 });
+
+
+// Inizializzazione del carosello Owl Carousel per la discografia
+$(document).ready(function () {
+    $(".event__slider").owlCarousel({
+        loop: true,
+        margin: 20,
+        nav: true,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        responsive: {
+            0: { items: 2 },
+            600: { items: 3 },
+            1000: { items: 4 }
+        }
+    });
+
+    // Gestione del click sulla miniatura del disco
+    $(".disc-carousel-thumb").on("click", function () {
+        const newCover = $(this).data("cover");
+        const newSpotify = $(this).data("spotify");
+
+        // Cambio copertina con effetto dissolvenza
+        $("#main-cover").fadeOut(200, function () {
+            $(this).attr("src", newCover).fadeIn(200);
+        });
+
+        // Cambio iframe Spotify con effetto dissolvenza
+        $("#main-iframe").fadeOut(200, function () {
+            $(this).attr("src", newSpotify).fadeIn(200);
+        });
+
+        // Scroll verso l’alto al contenitore principale
+        const scrollTarget = $("#active-display").offset().top - 60;
+        $("html, body").animate({ scrollTop: scrollTarget }, 600);
+    });
+
+    // Attivazione degli sfondi con data-setbg
+    $('.set-bg').each(function () {
+        const bg = $(this).data('setbg');
+        $(this).css('background-image', 'url(' + bg + ')');
+    });
+});
