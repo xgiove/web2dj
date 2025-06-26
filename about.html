@@ -44,6 +44,17 @@
         <div class="loader"></div>
     </div>
 
+    <!-- Cookie Banner -->
+    <div id="cookie-banner" class="cb-cookie-banner alert text-center mb-0" role="alert">
+        &#x1F36A; Questo sito utilizza cookie tecnici di terze parti.
+        Continuando la navigazione su questo sito acconsenti all'utilizzo dei cookie.
+        <!--Per maggiori informazioni consulta la <a href="privacy.html" target="blank">Privacy Policy</a>-->
+        <button type="button" class="btn btn-danger btn-sm ms-3" onclick="window.cb_hideCookieBanner()">
+            OK
+        </button>
+    </div>
+    <!-- End of Cookie Banner -->
+
     <!-- Header Section Begin -->
     <header class="header header--normal">
         <div class="container">
@@ -58,9 +69,9 @@
                         <nav class="header__menu mobile-menu">
                             <ul>
                                 <li><a href="./index.html">Home</a></li>
-                                <li class="active"><a href="./about.html">About</a></li>
+                                <li class="active"><a href="./about.html">Biografia</a></li>
                                 <li><a href="./discography.html">Discografia</a></li>
-                                <li><a href="./videos.html">Video</a></li>
+                                <!-- <li><a href="./videos.html">Video</a></li> -->
                                 <li><a href="./contact.html">Contatti</a></li>
                             </ul>
                         </nav>
@@ -109,18 +120,21 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="about__text">
-                        <div class="section-title">
-                            <h2>CHI SIAMO</h2>
-                        </div>
+
                         <p>
-                            <b>XGIOVE</b> (Pergiove) è una band marchigiana che dal 2018 esprime attraverso la musica il
+                            <b>XGIOVE</b> <em>(Pergiove)</em> è una band marchigiana che dal 2018 esprime attraverso la
+                            musica il
                             coraggio di essere sé stessi.<br>
 
                             La loro è un’energia che unisce il rock e il folk in un
-                            linguaggio popolare, vivo, capace di accendersi sul palco e diventare esperienza collettiva.
+                            linguaggio popolare, vivo, capace di accendersi sul palco e diventare esperienza
+                            collettiva.<br>
 
                             Ogni loro canzone è una presa di posizione: contro le paure, contro l’omologazione, a favore
-                            dell’autenticità. Una lotta gentile ma ostinata, per difendere l’identità di una generazione
+                            dell’<span style="font-weight: 600;">autenticità</span>.<br>
+
+                            Una lotta gentile ma ostinata, per difendere l’<span
+                                style="font-weight: 600;">identità</span> di una generazione
                             che non si arrende e continua a cercarsi, anche nel rumore.
 
                         </p>
@@ -153,40 +167,123 @@
                     <div class="col-lg-4">
                         <div class="event__item">
                             <div class="event__item__text">
-                                <h4>Zucchero</h4>
-                                <p><i class="fa fa-map-marker"></i>RCF arena, Reggio Emilia, Italia</p>
+                                <h4>ZUCCHERO</h4>
+                                <p><i class="fa fa-map-marker"></i>RCF arena, Reggio Emilia (2023) </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="event__item">
                             <div class="event__item__text">
-                                <h4>Caparezza</h4>
-                                <p><i class="fa fa-map-marker"></i>Bhooooooo, boh, Italia</p>
+                                <h4>CAPAREZZA</h4>
+                                <p><i class="fa fa-map-marker"></i>Monte Urano (2022)</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="event__item">
                             <div class="event__item__text">
-                                <h4>Litfiba</h4>
-                                <p><i class="fa fa-map-marker"></i>Bhooooooo, boh, Italia</p>
+                                <h4>LITFIBA</h4>
+                                <p><i class="fa fa-map-marker"></i>Monte Urano (2022)</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="event__item">
                             <div class="event__item__text">
-                                <h4>Bandabardò</h4>
-                                <p><i class="fa fa-map-marker"></i>Bhooooooo, boh, Italia</p>
+                                <h4>BANDABARDÒ</h4>
+                                <p><i class="fa fa-map-marker"></i>San Benedetto del Tronto (2019)</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="event__item">
                             <div class="event__item__text">
-                                <h4>Vasco</h4>
-                                <p><i class="fa fa-map-marker"></i>Stadio Olimpico, Roma, Italia</p>
+                                <h4>VASCO ROSSI</h4>
+                                <p><i class="fa fa-map-marker"></i>Stadio Olimpico, Roma (2025)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Event Section End -->
+
+
+
+    <!-- Event Section Begin -->
+    <section class="event spad spadd">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>Riconoscimenti</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="event__slider owl-carousel">
+                    <div class="col-lg-4">
+                        <div class="event__item">
+                            <div class="event__item__text">
+                                <h4>Vincitori di Zocca Paese Della Musica 2025</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="event__item">
+                            <div class="event__item__text">
+                                <h4>Finalisti del Premio Pierangelo Bertoli 2024</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="event__item">
+                            <div class="event__item__text">
+                                <h4>Premio miglio artista marchigiano 2024 al Premio Bruno Rosettani 2024</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="event__item">
+                            <div class="event__item__text">
+                                <h4>Finalisti ad Una Voce Per San Marino 2024</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="event__item">
+                            <div class="event__item__text">
+                                <h4>Terzo posto ad Una Voce Per San Marino 2023</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="event__item">
+                            <div class="event__item__text">
+                                <h4>Vincitori del Tour Music Fest 2022</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="event__item">
+                            <div class="event__item__text">
+                                <h4>Vincitori del Cantagiro 2022</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="event__item">
+                            <div class="event__item__text">
+                                <h4>Vincitori del Premio Alex Baroni 2019</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="event__item">
+                            <div class="event__item__text">
+                                <h4>Terzo posto a Sanremo Rock & Trend 2019</h4>
                             </div>
                         </div>
                     </div>

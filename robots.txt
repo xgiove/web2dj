@@ -1,0 +1,8 @@
+Disallow: /css/
+Disallow: /sass/
+Disallow: /Source/
+Disallow: /music-files/
+Disallow: /js/
+Disallow: /webfonts/
+
+Allow: /
