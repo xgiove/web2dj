@@ -537,11 +537,11 @@ ol {
 }
 
 .hero-overlay-img {
-	width: 400px;
+	width: 500px;
 	/* Imposta la larghezza desiderata */
 	height: auto;
 	/* Mantiene le proporzioni */
-
+	margin-top: -200px;
 	margin-bottom: 0px;
 }
 
