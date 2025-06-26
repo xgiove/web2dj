@@ -497,7 +497,7 @@ ol {
 	color: #ca1212;
 	height: 90px;
 	width: 90px;
-	border-radius: 50%;
+	border-radius: 0%;
 	background: rgba(255, 255, 255, 0.3);
 	display: inline-block;
 	line-height: 90px;
@@ -521,7 +521,7 @@ ol {
 	height: 60px;
 	width: 60px;
 	background: #ffffff;
-	border-radius: 50%;
+	border-radius: 0%;
 	content: "";
 	z-index: -1;
 }
@@ -537,12 +537,12 @@ ol {
 }
 
 .hero-overlay-img {
-	width: 500px;
+	width: 400px;
 	/* Imposta la larghezza desiderata */
 	height: auto;
 	/* Mantiene le proporzioni */
 
-	margin-bottom: 40px;
+	margin-bottom: 0px;
 }
 
 .linear__icon {
