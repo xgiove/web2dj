@@ -502,9 +502,10 @@ ol {
 	display: inline-block;
 	line-height: 90px;
 	text-align: center;
-	position: relative;
+	position: absolute;
 	z-index: 1;
 	margin-top: -200px;
+	margin-left: -50px;
 	/* Alza il bottone */
 }
 
@@ -537,7 +538,7 @@ ol {
 }
 
 .hero-overlay-img {
-	width: 500px;
+	width: 100%;
 	/* Imposta la larghezza desiderata */
 	height: auto;
 	/* Mantiene le proporzioni */
@@ -611,7 +612,7 @@ ol {
 
 .event__slider.owl-carousel .owl-nav button {
 	font-size: 22px;
-	color: #111111;
+	color: #868686;
 	opacity: 0.5;
 	margin-right: 10px;
 }
@@ -2842,6 +2843,12 @@ ol {
 		height: auto;
 		margin-top: 8px;
 	}
+
+	.hero__text .play-btn {
+
+		margin-top: -150px;
+
+	}
 }
 
 /* Tablet Device = 768px */
@@ -2935,7 +2942,11 @@ ol {
 		margin-top: 5px;
 	}
 
+	.hero__text .play-btn {
 
+		margin-top: -90px;
+
+	}
 
 }
 
@@ -3135,6 +3146,12 @@ ol {
 		/* oppure un valore fisso come width: 120px; */
 		height: auto;
 		margin-top: 0px;
+	}
+
+	.hero__text .play-btn {
+
+		margin-top: -60px;
+
 	}
 }
 
